@@ -17,28 +17,28 @@
     </div>
 
     <div class="slide">
-      <span class="slide-number">1 / 3</span>
+      <span class="slide-number">2 / 3</span>
       <img class="slide-img" src="public/img/nature-3-resized.jpg" alt="Nature">
       <span class="desc">Image Description</span>
     </div>
 
     <div class="slide">
-      <span class="slide-number">1 / 3</span>
+      <span class="slide-number">3 / 3</span>
       <img class="slide-img" src="public/img/nature-5.jpg" alt="Nature">
       <span class="desc">Image Description</span>
     </div>
 
     <div class="directions">
-      <button type="button" class="prev-btn">&#171;</button>
-      <button type="button" class="next-btn">&#187;</button>
+      <button type="button" class="prev-btn" onclick="changeSlides(-1)">&#171;</button>
+      <button type="button" class="next-btn" onclick="changeSlides(1)">&#187;</button>
     </div>
     
   </div>
   
   <div class="bullets">
-    <button type="button" class="bullet"></button>
-    <button type="button" class="bullet"></button>
-    <button type="button" class="bullet"></button>
+    <button type="button" class="bullet" onclick="currentSlide(1)"></button>
+    <button type="button" class="bullet" onclick="currentSlide(2)"></button>
+    <button type="button" class="bullet" onclick="currentSlide(3)"></button>
   </div>
 
   <script src="public/js/script.js"></script>

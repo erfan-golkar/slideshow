@@ -34,6 +34,10 @@ body {
   position: relative;
 }
 
+.slide {
+  display: none;
+}
+
 /* slideshow img */
 .slide-img {
   position: absolute;
