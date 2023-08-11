@@ -129,6 +129,12 @@ body {
   background-color: gray;
 }
 
+/* tip */
+.tip {
+  background-color: #ffff0070;
+  padding: 12px;
+}
+
 /* animated show imgs */
 @keyframes showImgs {
   from {
