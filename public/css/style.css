@@ -27,7 +27,7 @@ body {
 
 /* other styles */
 /* slideshow */
-.sideshow {
+.slideshow {
   width: 70%;
   height: 400px;
   margin: 40px auto 10px;
@@ -35,7 +35,7 @@ body {
 }
 
 /* slideshow img */
-.side-img {
+.slide-img {
   position: absolute;
   top: 0;
   display: block;
@@ -48,7 +48,7 @@ body {
 }
 
 /* slideshow number */
-.side-number {
+.slide-number {
   position: absolute;
   top: 12px;
   left: 12px;
@@ -58,7 +58,7 @@ body {
   transition: 0.16s;
 }
 
-.side-number:hover {
+.slide-number:hover {
   cursor: none;
   background-color: lightgray;
 }
@@ -82,8 +82,8 @@ body {
   background-color: whitesmoke;
 }
 
-/* sideshow side btns */
-.sides button {
+/* slideshow slide btns */
+.directions button {
   font-size: 30px;
   padding: 0px 14px;
   border-radius: 50%;
@@ -95,7 +95,7 @@ body {
   transition: 0.16s;
 }
 
-.sides button:hover {
+.directions button:hover {
   opacity: 1;
 }
 
