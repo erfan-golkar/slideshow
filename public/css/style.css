@@ -35,6 +35,8 @@ body {
 }
 
 .slide {
+  animation-name: showImgs;
+  animation-duration: 0.4s;
   display: none;
 }
 
@@ -125,4 +127,14 @@ body {
 
 .active-bullet, .bullet:hover {
   background-color: gray;
+}
+
+/* animated show imgs */
+@keyframes showImgs {
+  from {
+    opacity: 0.4;
+  }
+  to {
+    opacity: 1;
+  }
 }
